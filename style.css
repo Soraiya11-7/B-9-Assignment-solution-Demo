@@ -216,6 +216,77 @@ body{
 
 } */
 
+/* best offer styles section starts here */
+.best-offer-container{
+    width: 1320px;
+    height: 463px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+    /* display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+     align-items: center;  */
+}
+.best-offer-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column;  */
+    justify-content: space-evenly;
+     align-items: center; 
+}
+.pic1{
+    border-radius: 50%;
+    border: 10px solid red;
+    padding: 10px;
+} 
+.best-offer h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.best-offer h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 45px;
+}
+.best-offer p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+._2024 h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+._2024 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.H-Y{
+    width: 140px;
+    height: 140px;
+}
+.H-Y img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
 /* holiday section starts here */
 .holiday-section{
     width: 1320px;
