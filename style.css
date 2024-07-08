@@ -423,6 +423,87 @@ body{
     height: 450px;
 }
 
+/* Subscribe section starts here */
+.subscribe-container{
+    width: 1320px;
+    height: 616px;
+    background: rgba(255, 0, 0, 0.05);
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subs-icon{
+    width: 150px;
+   height: 150px;
+   margin-bottom: 40px;
+}
+.subs-content{
+    width: 896px;
+    height: 146px;
+}
+.subs-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.subs-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.search{
+    width: 450px;
+    height: 65px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    /* justify-content:space-around; */
+    align-items: center;
+    
+    
+}
+.search form{
+    display: flex;
+    outline: none;
+}
+/* .S-btn button {
+    background-color: red;
+    width: 30%;
+    margin: 0 auto;
+    left: 80%;
+    height: 65px;
+    color: white;
+    border: 2px solid red; 
+    border-radius: 0px 50px 50px 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+.email input {
+
+    border-radius: 50px 0px 0px 50px;
+    border-color: white;
+    width: 80%px;
+    height: 65px;
+    margin: 0 auto;
+    /* color: rgba(7, 2, 17, 0.3); */
+    /* font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center; */
+/* } */ 
+
+
 /* footer style starts here */
 .footer-container{
     width: 1320px;
