@@ -467,20 +467,19 @@ body{
     border-radius: 50px;
     background: rgb(255, 255, 255);
     display: flex;
-    /* justify-content:space-around; */
+    /* justify-content:space-around;  */
     align-items: center;
-    
-    
-}
-.search form{
-    display: flex;
     outline: none;
 }
-/* .S-btn button {
+/* .search form{
+    display: flex;
+    outline: none;
+} */
+.search button {
     background-color: red;
     width: 30%;
-    margin: 0 auto;
-    left: 80%;
+    /* margin: 0 auto;  */
+    left: 90%;
     height: 65px;
     color: white;
     border: 2px solid red; 
@@ -488,20 +487,23 @@ body{
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+    justify-content: right;
 }
-.email input {
+.search input[type="email"] {
 
     border-radius: 50px 0px 0px 50px;
     border-color: white;
-    width: 80%px;
+    border: 0.1px solid white;
+    width: 70%px;
     height: 65px;
     margin: 0 auto;
     /* color: rgba(7, 2, 17, 0.3); */
-    /* font-family: Inter;
+    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    text-align: center; */
-/* } */ 
+    text-align: left;
+    justify-content: left;
+ } 
 
 
 /* footer style starts here */
