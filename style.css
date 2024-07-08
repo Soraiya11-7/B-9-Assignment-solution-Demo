@@ -288,3 +288,48 @@ body{
     height: 450px;
 }
 
+/* footer style starts here */
+.footer-container{
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-first-content{
+   
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 100px 0px;
+    margin-bottom: 25px;
+}
+.web-address , .contact{
+    display: flex;
+}
+.hr{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(55, 53, 53);
+    margin-bottom: 50px;
+}
+.social-icons{
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-last-content{
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
